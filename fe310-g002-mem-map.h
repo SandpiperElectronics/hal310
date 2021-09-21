@@ -1,0 +1,35 @@
+//
+// Created by Luke LaCasse on 8/22/21.
+//
+
+#ifndef FE310_G002_FE310_G002_MEM_MAP_H
+#define FE310_G002_FE310_G002_MEM_MAP_H
+
+
+// Define Offsets for FE310-G002 Peripherals
+#define DEBUG 0x00000000
+#define MODE_SEL 0x00001000
+#define ERROR_DEVICE 0x00003000
+#define MASK_ROM 0x00010000
+#define OTP_MEMORY_REGION 0x00020000
+#define CLINT 0x02000000
+#define E31_ITIM 0x08002000
+#define PLIC 0x0C000000
+#define AON 0x10000000
+#define PRCI 0x10008000
+#define OTP_CTRL 0x10010000
+#define GPIO0 0x10012000
+#define UART0 0x10013000
+#define QSPI0 0x10014000
+#define PWM0 0x10015000
+#define I2C0 0x10016000
+#define UART1 0x10023000
+#define SPI1 0x10024000
+#define PWM1 0x10025000
+#define SPI2 0x10034000
+#define PWM2 0x10035000
+#define QSPI0_FLASH 0x2000000  // Off-Chip Non-Volatile Memory 512 MiB
+#define E31_DTIM 0x80000000  // On-Chip Volatile Memory 16 KiB
+
+
+#endif //FE310_G002_FE310_G002_MEM_MAP_H
